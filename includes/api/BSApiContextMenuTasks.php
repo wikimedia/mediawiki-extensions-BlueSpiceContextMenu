@@ -46,7 +46,9 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 
 		if( $oTitle->getNamespace() === NS_FILE && $oTitle->exists() ) {
 			$oFile = wfFindFile( $oTitle );
-			$this->makeFileItems( $aItems, $oTitle, $oFile );
+			if( $oFile->exists() ) {
+				$this->makeFileItems( $aItems, $oTitle, $oFile );
+			}
 		}
 
 		Hooks::run( 'BsContextMenuGetItems', array( &$aItems, $oTitle ) );
