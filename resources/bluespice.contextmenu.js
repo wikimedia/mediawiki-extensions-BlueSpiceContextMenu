@@ -23,7 +23,7 @@
 		return false;
 	};
 
-	var modus = mw.user.options.get('MW::ContextMenu::Modus', 'ctrl');
+	var modus = mw.user.options.get( 'bs-contextmenu-modus', 'ctrl' );
 
 	$(document).on( 'contextmenu', 'a', function( e ) {
 		if( (modus === 'no-ctrl' && e.ctrlKey) || (modus === 'ctrl' && !e.ctrlKey) ) {
