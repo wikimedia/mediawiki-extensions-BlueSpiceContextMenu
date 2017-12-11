@@ -20,11 +20,15 @@
 			"i18n"
 		]
 	},
+	"DefaultUserOptions": {
+		"bs-contextmenu-modus" : "ctrl"
+	},
 	"AutoloadClasses": {
 		"ContextMenu": "ContextMenu.class.php",
 		"BSApiContextMenuTasks": "includes/api/BSApiContextMenuTasks.php"
 	},
 	"Hooks": {
+		"GetPreferences": "\\BlueSpice\\ContextMenu\\Hook\\GetPreferences\\AddModule::callback",
 		"UnitTestsList": "ContextMenu::onUnitTestsList"
 	},
 	"APIModules": {

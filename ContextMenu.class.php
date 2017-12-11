@@ -39,23 +39,6 @@ class ContextMenu extends BsExtensionMW {
 	 */
 	protected function initExt() {
 		$this->setHook('BeforePageDisplay');
-
-		BsConfig::registerVar( 'MW::ContextMenu::Modus', 'ctrl', BsConfig::LEVEL_USER|BsConfig::TYPE_STRING|BsConfig::USE_PLUGIN_FOR_PREFS, 'bs-contextmenu-pref-modus', 'radio' );
-	}
-
-	/**
-	 * Called by Preferences and UserPreferences
-	 * @param string $sAdapterName Name of the adapter. Probably MW.
-	 * @param BsConfig $oVariable The variable that is to be specified.
-	 * @return array Option array of specifications.
-	 */
-	public function runPreferencePlugin( $sAdapterName, $oVariable ) {
-		return array(
-			'options' => array(
-				wfMessage( 'bs-contextmenu-pref-modus-ctrl-and-right-mouse' )->text() => 'ctrl',
-				wfMessage( 'bs-contextmenu-pref-modus-just-right-mouse' )->text() => 'no-ctrl'
-			),
-		);
 	}
 
 	/**
