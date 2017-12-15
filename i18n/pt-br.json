@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"bs-contextmenu-desc": "Fornece menus de contexto para vários links",
 	"prefs-contextmenu": "Menu de contexto",
 	"bs-contextmenu-pref-modus": "Abra o menu de contexto por (não para celular):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Clicar o botão direito do rato (Premir também a tecla \"CTRL\" mostra o menu contextual padrão do <i>browser</i>)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Clicar o botão direito do rato enquanto prime \"CTRL\" (Só clicar o botão do rato, mostra o menu contextual padrão do <i>browser</i>)",
 	"bs-contextmenu-page-edit": "Editar página",
 	"bs-contextmenu-page-delete": "Excluir página",
 	"bs-contextmenu-page-move": "Mover página",
