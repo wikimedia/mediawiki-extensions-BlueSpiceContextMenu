@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
 	"bs-contextmenu-desc": "Provee menús contextuales para varios enlaces",
@@ -9,7 +10,7 @@
 	"bs-contextmenu-pref-modus": "Abrir el menú contextual (no para móviles) mediante:",
 	"bs-contextmenu-pref-modus-just-right-mouse": "Clic en el botón derecho del ratón (pulsando CTRL se mostrará el menú contextual del navegador predeterminado)",
 	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Clic en el botón derecho del ratón y pulsando CTRL (el botón derecho normal mostrará el menú del navegador predeterminado)",
-	"bs-contextmenu-page-edit": "Editar Página",
+	"bs-contextmenu-page-edit": "Editar página",
 	"bs-contextmenu-page-delete": "Borrar página",
 	"bs-contextmenu-page-move": "Mover página",
 	"bs-contextmenu-page-history": "Ver el historial de la página",
