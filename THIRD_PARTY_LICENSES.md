@@ -21,7 +21,7 @@ Fonts
 |:--------|:-------|:--------|:-------|
 | [DejaVu](https://dejavu-fonts.github.io/) | Bitstream | 2.33 | [DejaVu](https://dejavu-fonts.github.io/License.html) |
 | [FontAwesome](http://fontawesome.io) | Dave Gandy | 3.0 | [SIL 1.1](http://fontawesome.io/license) |
-| [IcoMoon](https://icomoon.io/#icons-icomoon) | Keyamoon | - | [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.txt) |
+| [IcoMoon](https://icomoon.io/#icons-icomoon) | Keyamoon | - | [GPL-3.0-only](https://www.gnu.org/licenses/gpl-3.0.txt) |
 
 License texts
 =============
