@@ -2,7 +2,7 @@
 	"name": "mediawiki/blue-spice-context-menu",
 	"type": "mediawiki-extension",
 	"description": "Provides context menus for various links",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"require": {
 		"composer/installers": "~1.0"
 	},
