@@ -28,8 +28,7 @@
 		"BSApiContextMenuTasks": "includes/api/BSApiContextMenuTasks.php"
 	},
 	"Hooks": {
-		"GetPreferences": "\\BlueSpice\\ContextMenu\\Hook\\GetPreferences\\AddModus::callback",
-		"UnitTestsList": "ContextMenu::onUnitTestsList"
+		"GetPreferences": "\\BlueSpice\\ContextMenu\\Hook\\GetPreferences\\AddModus::callback"
 	},
 	"APIModules": {
 		"bs-contextmenu-tasks": "BSApiContextMenuTasks"
