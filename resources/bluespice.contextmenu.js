@@ -23,9 +23,8 @@
 		return false;
 	};
 
-	var modus = mw.user.options.get( 'bs-contextmenu-modus', 'ctrl' );
-
 	$(document).on( 'contextmenu', 'a', function( e ) {
+		var modus = mw.user.options.get( 'bs-contextmenu-modus', 'ctrl' );
 		if( (modus === 'no-ctrl' && e.ctrlKey) || (modus === 'ctrl' && !e.ctrlKey) ) {
 			return true;
 		}
