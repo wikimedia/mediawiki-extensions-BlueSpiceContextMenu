@@ -14,7 +14,6 @@ class AddModus extends GetPreferences {
 				wfMessage( 'bs-contextmenu-pref-modus-ctrl-and-right-mouse' )->text() => 'ctrl',
 				wfMessage( 'bs-contextmenu-pref-modus-just-right-mouse' )->text() => 'no-ctrl'
 			),
-			'default' => 'ctrl',
 		);
 		return true;
 	}
