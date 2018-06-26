@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-context-menu",
+	"name": "bluespice/contextmenu",
 	"type": "mediawiki-extension",
 	"description": "Provides context menus for various links",
 	"license": "GPL-3.0-only",
@@ -24,5 +24,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceContextMenu"
 	}
 }
