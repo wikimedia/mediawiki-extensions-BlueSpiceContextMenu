@@ -10,10 +10,14 @@
 	],
 	"descriptionmsg": "bs-contextmenu-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceContextMenu": {
-			"className": "\\BlueSpice\\ContextMenu\\Extension",
-			"extPath": "/BlueSpiceContextMenu"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceContextMenu": {
+					"className": "\\BlueSpice\\ContextMenu\\Extension",
+					"extPath": "/BlueSpiceContextMenu"
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -62,5 +66,5 @@
 		"remoteExtPath": "BlueSpiceContextMenu/resources"
 	},
 	"load_composer_autoloader": true,
-	"manifest_version": 1
+	"manifest_version": 2
 }
