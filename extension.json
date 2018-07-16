@@ -29,7 +29,6 @@
 		"bs-contextmenu-modus" : "ctrl"
 	},
 	"AutoloadClasses": {
-		"ContextMenu": "ContextMenu.class.php",
 		"BSApiContextMenuTasks": "includes/api/BSApiContextMenuTasks.php"
 	},
 	"Hooks": {
