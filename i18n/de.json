@@ -3,7 +3,8 @@
 		"authors": [
 			"Tobias Weichart<weichart@hallowelt.biz>",
 			"Robert Vogel <vogel@hallowelt.biz>",
-			"Metalhead64"
+			"Metalhead64",
+			"Hwboehm"
 		]
 	},
 	"bs-contextmenu-desc": "Zeigt für bestimmte Links ein Kontextmenü an",
@@ -23,5 +24,6 @@
 	"bs-contextmenu-user-mail": "E-Mail schreiben",
 	"bs-contextmenu-user-talk": "Eine Nachicht auf der Benutzerdiskussionsseite hinterlassen",
 	"bs-contextmenu-file-download": "Datei herunterladen",
-	"apihelp-bs-contextmenu-tasks-description": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung"
+	"apihelp-bs-contextmenu-tasks-description": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung",
+	"apihelp-bs-contextmenu-tasks-summary": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung"
 }
