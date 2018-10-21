@@ -3,13 +3,14 @@
 		"authors": [
 			"Okras",
 			"Alexandr Efremov",
-			"Facenapalm"
+			"Facenapalm",
+			"CiaPan"
 		]
 	},
 	"bs-contextmenu-desc": "Предоставляет контекстное меню для различных ссылок",
 	"prefs-contextmenu": "Контекстное меню",
 	"bs-contextmenu-pref-modus": "Откройте контекстное меню на (не для мобильных устройств)",
-	"bs-contextmenu-pref-modus-just-right-mouse": "При нажатии на правую кнопку мыши (нажав Crtl покажет контекстное меню по умолчанию в браузере)",
+	"bs-contextmenu-pref-modus-just-right-mouse": "При нажатии на правую кнопку мыши (нажав Ctrl покажет контекстное меню по умолчанию в браузере)",
 	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "При нажатии на правую кнопку мыши и нажатия Ctrl (нормально зажимая правую кнопку мыши покажет стандартное меню в браузере)",
 	"bs-contextmenu-page-edit": "Редактировать страницу",
 	"bs-contextmenu-page-delete": "Удалить страницу",
