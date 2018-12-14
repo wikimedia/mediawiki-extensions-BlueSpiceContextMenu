@@ -4,13 +4,14 @@
 			"Sagan",
 			"Лилиә",
 			"Азат Хәлилов",
-			"З. ӘЙЛЕ"
+			"З. ӘЙЛЕ",
+			"CiaPan"
 		]
 	},
 	"bs-contextmenu-desc": "Төрлө һылтанмалар өсөн контекст меню күрһәтә",
 	"prefs-contextmenu": "Контекст меню",
 	"bs-contextmenu-pref-modus": " Контексте асығыҙ (мобиль ҡоролмалар өсөн түгел)",
-	"bs-contextmenu-pref-modus-just-right-mouse": "Төрткөнөң уң яғына баҫҡанда (Crtl-ға баҫҡанда браузерҙа ҡуйылған контекст менюһын күрһәтәсәк)",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Төрткөнөң уң яғына баҫҡанда (Ctrl-ға баҫҡанда браузерҙа ҡуйылған контекст менюһын күрһәтәсәк)",
 	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Төрткөнөң уң яғына һәм  Ctrl-ға баҫҡанда (төрткөнөң уң яғына баҫып торғанда браузерҙың ҙәҙәти менюһын күрһәтәсәк)",
 	"bs-contextmenu-page-edit": "Битте мөхәррирләү",
 	"bs-contextmenu-page-delete": "Битте юйырға",
