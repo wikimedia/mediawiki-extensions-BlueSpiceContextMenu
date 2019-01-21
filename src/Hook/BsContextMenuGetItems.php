@@ -21,7 +21,7 @@
  * @author     Patric Wirth <wirth@hallowelt.com>
  * @package    BlueSpiceContextMenu
  * @copyright  Copyright (C) 2018 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
 
@@ -44,7 +44,7 @@ abstract class BsContextMenuGetItems extends \BlueSpice\Hook {
 	/**
 	 * Located in BSApiContextMenuTasks::task_getMenuItems. Before items are
 	 * returned
-	 * @param array $items
+	 * @param array &$items
 	 * @param \Title $title
 	 * @return bool
 	 */
@@ -62,9 +62,8 @@ abstract class BsContextMenuGetItems extends \BlueSpice\Hook {
 	/**
 	 * @param \IContextSource $context
 	 * @param \Config $config
-	 * @param array $items
+	 * @param array &$items
 	 * @param \Title $title
-	 * @param array $params
 	 */
 	public function __construct( $context, $config, &$items, $title ) {
 		parent::__construct( $context, $config );

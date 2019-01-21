@@ -21,6 +21,24 @@
 					"extPath": "/BlueSpiceContextMenu"
 				}
 			}
+		},
+		"BlueSpiceContextMenu": {
+			"ItemFactories": {
+				"edit": "BlueSpice\\ContextMenu\\MenuItem\\Edit::factory",
+				"delete": "BlueSpice\\ContextMenu\\MenuItem\\Delete::factory",
+				"history": "BlueSpice\\ContextMenu\\MenuItem\\History::factory",
+				"move": "BlueSpice\\ContextMenu\\MenuItem\\Move::factory",
+				"protect": "BlueSpice\\ContextMenu\\MenuItem\\Protect::factory",
+				"watch": "BlueSpice\\ContextMenu\\MenuItem\\Watch::factory",
+				"purge": "BlueSpice\\ContextMenu\\MenuItem\\Purge::factory",
+				"info": "BlueSpice\\ContextMenu\\MenuItem\\Info::factory",
+				"whatlinkshere": "BlueSpice\\ContextMenu\\MenuItem\\Whatlinkshere::factory",
+				"download": "BlueSpice\\ContextMenu\\MenuItem\\Download::factory",
+				"editusertalk": "BlueSpice\\ContextMenu\\MenuItem\\EditUserTalk::factory",
+				"mailuser": "BlueSpice\\ContextMenu\\MenuItem\\MailUser::factory",
+				"reupload": "BlueSpice\\ContextMenu\\MenuItem\\Reupload::factory",
+				"viewmedia": "BlueSpice\\ContextMenu\\MenuItem\\ViewMedia::factory"
+			}
 		}
 	},
 	"MessagesDirs": {
