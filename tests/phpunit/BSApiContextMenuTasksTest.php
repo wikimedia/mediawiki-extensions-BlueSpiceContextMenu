@@ -22,7 +22,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 			Title::makeTitle( NS_FILE, 'File.txt' )
 		);
 
-		$filepath = __DIR__.'/data/file.txt';
+		$filepath = __DIR__ . '/data/file.txt';
 		$archive = $file->publish( $filepath );
 		$props = FSFile::getPropsFromPath( $filepath );
 		$file->recordUpload2( $archive->value, 'Test', 'Test', $props, false );
