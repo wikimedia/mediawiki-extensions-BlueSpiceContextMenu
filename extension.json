@@ -52,6 +52,9 @@
 	"DefaultUserOptions": {
 		"bs-contextmenu-modus" : "ctrl"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ContextMenu\\": "src/"
+	},
 	"AutoloadClasses": {
 		"BSApiContextMenuTasks": "includes/api/BSApiContextMenuTasks.php"
 	},
