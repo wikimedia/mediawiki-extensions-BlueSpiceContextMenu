@@ -3,9 +3,11 @@
 		"authors": [
 			"Hwangjy9",
 			"Yearning",
-			"Revi"
+			"Revi",
+			"Ykhwong"
 		]
 	},
+	"prefs-contextmenu": "컨텍스트 메뉴",
 	"bs-contextmenu-page-edit": "문서 편집",
 	"bs-contextmenu-page-delete": "문서 삭제",
 	"bs-contextmenu-page-move": "문서 이동",
