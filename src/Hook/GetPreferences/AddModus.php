@@ -9,7 +9,7 @@ class AddModus extends GetPreferences {
 		$this->preferences['bs-contextmenu-modus'] = [
 			'type' => 'radio',
 			'label-message' => 'bs-contextmenu-pref-modus',
-			'section' => 'bluespice/contextmenu',
+			'section' => 'rendering/contextmenu',
 			'options' => [
 				wfMessage( 'bs-contextmenu-pref-modus-ctrl-and-right-mouse' )->text() => 'ctrl',
 				wfMessage( 'bs-contextmenu-pref-modus-just-right-mouse' )->text() => 'no-ctrl'
