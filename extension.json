@@ -65,6 +65,7 @@
 				"bs-contextmenu-file-download"
 			],
 			"dependencies": [
+				"user.options",
 				"ext.bluespice"
 			]
 		}
