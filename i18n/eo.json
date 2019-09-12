@@ -11,5 +11,6 @@
 	"bs-contextmenu-page-history": "Montri redakto-historion",
 	"bs-contextmenu-page-protect": "Protekti paĝon",
 	"bs-contextmenu-page-info": "Vidi informon pri paĝo",
-	"bs-contextmenu-user-mail": "Sendi retpoŝton"
+	"bs-contextmenu-user-mail": "Sendi retpoŝton",
+	"bs-contextmenu-file-download": "Elŝuti dosieron"
 }
