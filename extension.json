@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceContextMenu",
 	"license-name": "GPL-3.0-only",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:ContextMenu",
 	"author": [
 		"Tobias Weichart",
@@ -11,9 +11,9 @@
 	"descriptionmsg": "bs-contextmenu-desc",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.31.0",
+		"MediaWiki": "~1.31",
 		"extensions": {
-			"BlueSpiceFoundation": ">= 3.0.0"
+			"BlueSpiceFoundation": "~3.1"
 		}
 	},
 	"attributes": {
@@ -23,6 +23,24 @@
 					"className": "\\BlueSpice\\ContextMenu\\Extension",
 					"extPath": "/BlueSpiceContextMenu"
 				}
+			}
+		},
+		"BlueSpiceContextMenu": {
+			"ItemFactories": {
+				"edit": "BlueSpice\\ContextMenu\\MenuItem\\Edit::factory",
+				"delete": "BlueSpice\\ContextMenu\\MenuItem\\Delete::factory",
+				"history": "BlueSpice\\ContextMenu\\MenuItem\\History::factory",
+				"move": "BlueSpice\\ContextMenu\\MenuItem\\Move::factory",
+				"protect": "BlueSpice\\ContextMenu\\MenuItem\\Protect::factory",
+				"watch": "BlueSpice\\ContextMenu\\MenuItem\\Watch::factory",
+				"purge": "BlueSpice\\ContextMenu\\MenuItem\\Purge::factory",
+				"info": "BlueSpice\\ContextMenu\\MenuItem\\Info::factory",
+				"whatlinkshere": "BlueSpice\\ContextMenu\\MenuItem\\Whatlinkshere::factory",
+				"download": "BlueSpice\\ContextMenu\\MenuItem\\Download::factory",
+				"editusertalk": "BlueSpice\\ContextMenu\\MenuItem\\EditUserTalk::factory",
+				"mailuser": "BlueSpice\\ContextMenu\\MenuItem\\MailUser::factory",
+				"reupload": "BlueSpice\\ContextMenu\\MenuItem\\Reupload::factory",
+				"viewmedia": "BlueSpice\\ContextMenu\\MenuItem\\ViewMedia::factory"
 			}
 		}
 	},

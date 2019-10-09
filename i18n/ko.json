@@ -3,7 +3,8 @@
 		"authors": [
 			"Hwangjy9",
 			"Yearning",
-			"Revi"
+			"Revi",
+			"Ykhwong"
 		]
 	},
 	"bs-contextmenu-page-edit": "문서 편집",
@@ -17,5 +18,7 @@
 	"bs-contextmenu-media-view-page": "파일 설명과 파일 역사 보기",
 	"bs-contextmenu-user-mail": "메일 보내기",
 	"bs-contextmenu-user-talk": "토론 문서에 메시지 남기기",
-	"bs-contextmenu-file-download": "파일 내려받기"
+	"bs-contextmenu-file-download": "파일 내려받기",
+	"bs-contextmenu-desc": "다양한 링크의 컨텍스트 메뉴를 제공합니다",
+	"prefs-contextmenu": "컨텍스트 메뉴"
 }
