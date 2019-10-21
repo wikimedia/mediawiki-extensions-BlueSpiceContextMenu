@@ -11,7 +11,7 @@ use BlueSpice\Tests\BSApiTasksTestBase;
  */
 class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 
-	protected function setUp() {
+	protected function setUp() : void {
 		parent::setUp();
 
 		$this->setMwGlobals( [
