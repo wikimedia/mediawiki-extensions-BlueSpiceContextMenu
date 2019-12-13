@@ -33,6 +33,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 	}
 
 	/**
+	 * @covers \BSApiContextMenuTasks::task_getMenuItems
 	 * @dataProvider provideGetMenuItemData
 	 */
 	public function testGetMenuItems( $title, $expectedResultFlag, $expectedNoOfEintries ) {
