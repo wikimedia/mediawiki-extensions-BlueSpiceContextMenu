@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Dansita"
 		]
 	},
+	"prefs-contextmenu": "Menu contestuale",
 	"bs-contextmenu-page-edit": "Modifica la pagina",
 	"bs-contextmenu-page-delete": "Cancella la pagina",
 	"bs-contextmenu-page-move": "Sposta la pagina",
