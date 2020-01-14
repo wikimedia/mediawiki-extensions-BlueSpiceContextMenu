@@ -2,9 +2,9 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use RequestContext;
 use SpecialEmailUser;
 use SpecialPage;
-use RequestContext;
 
 class MailUser extends BaseUserAction {
 

@@ -1,7 +1,7 @@
 <?php
 
-use BlueSpice\ExtensionAttributeBasedRegistry;
 use BlueSpice\ContextMenu\IMenuItem;
+use BlueSpice\ExtensionAttributeBasedRegistry;
 
 class BSApiContextMenuTasks extends BSApiTasksBase {
 
