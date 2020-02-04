@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Dansita"
 		]
 	},
 	"bs-contextmenu-page-edit": "Modifica la pagina",
@@ -14,5 +15,6 @@
 	"bs-contextmenu-media-view-page": "Vedi pagina di descrizione del file e cronologia del file",
 	"bs-contextmenu-user-mail": "Invia email",
 	"bs-contextmenu-user-talk": "Lascia un messaggio sulla pagina di discussione",
-	"bs-contextmenu-file-download": "Scarica il file"
+	"bs-contextmenu-file-download": "Scarica il file",
+	"prefs-contextmenu": "Menu contestuale"
 }

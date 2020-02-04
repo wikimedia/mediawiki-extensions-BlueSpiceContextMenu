@@ -22,7 +22,7 @@
 	"bs-contextmenu-pref-modus": "Bağlam menüsünü şununla aç (mobil cihazlar için değil):",
 	"bs-contextmenu-pref-modus-just-right-mouse": "Sağ fare düğmesine tıklayın (CTRL tuşuna basıldığında varsayılan tarayıcı bağlam menüsü gösterilir)",
 	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Sağ fare düğmesine tıklayın ve CTRL düğmesine basın (Normal sağ fare düğmesi varsayılan tarayıcı menüsünü gösterir)",
-	"bs-contextmenu-user-talk": "İletiyi konuşma sayfasında bırak",
+	"bs-contextmenu-user-talk": "İletiyi tartışma sayfasında bırak",
 	"apihelp-bs-contextmenu-tasks-description": "Bağlam menüsü öğelerini bağlam içinde sağlar",
 	"apihelp-bs-contextmenu-tasks-summary": "Bağlam menüsü öğelerini bağlam içinde sağlar"
 }
