@@ -45,7 +45,9 @@ class Download extends BaseFileAction {
 		$ns = $this->title->getNamespace();
 		if ( $this->file ) {
 			if ( $this->file->exists() ) {
-				return $this->title->userCan( 'read' );
+				return \MediaWiki\MediaWikiServices::getInstance()
+					->getPermissionManager()
+					->userCan( 'read', $context->getUser(), $this->title );
 			}
 		}
 		return false;

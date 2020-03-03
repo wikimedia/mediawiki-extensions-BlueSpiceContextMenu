@@ -45,7 +45,9 @@ class Reupload extends BaseFileAction {
 	public function shouldList( $context ) {
 		if ( $this->file ) {
 			if ( $this->file->exists() ) {
-				return $this->title->userCan( 'reupload' );
+				return \MediaWiki\MediaWikiServices::getInstance()
+					->getPermissionManager()
+					->userCan( 'reupload', $context->getUser(), $this->title );
 			}
 		}
 		return false;

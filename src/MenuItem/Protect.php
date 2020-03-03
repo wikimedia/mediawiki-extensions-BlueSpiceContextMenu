@@ -42,7 +42,10 @@ class Protect extends Base {
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
-		return $this->title->exists() && $this->title->userCan( 'protect' );
+		return $this->title->exists() &&
+			\MediaWiki\MediaWikiServices::getInstance()
+				->getPermissionManager()
+				->userCan( 'protect', $context->getUser(), $this->title );
 	}
 
 }

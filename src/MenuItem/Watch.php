@@ -42,7 +42,10 @@ class Watch extends Base {
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
-		return $this->title->exists() && $this->title->userCan( 'read' );
+		return $this->title->exists() &&
+			\MediaWiki\MediaWikiServices::getInstance()
+				->getPermissionManager()
+				->userCan( 'read', $context->getUser(), $this->title );
 	}
 
 }

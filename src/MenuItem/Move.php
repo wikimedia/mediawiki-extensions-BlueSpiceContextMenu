@@ -44,7 +44,9 @@ class Move extends Base {
 	 * @return type
 	 */
 	public function shouldList( $context ) {
-		return $this->title->userCan( 'move' ) && $this->title->isMovable();
+		return \MediaWiki\MediaWikiServices::getInstance()
+			->getPermissionManager()
+			->userCan( 'move', $context->getUser(), $this->title ) && $this->title->isMovable();
 	}
 
 }

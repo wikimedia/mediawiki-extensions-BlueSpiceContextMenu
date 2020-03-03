@@ -42,7 +42,9 @@ class History extends Base {
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
-		return $this->title->userCan( 'read' );
+		return \MediaWiki\MediaWikiServices::getInstance()
+			->getPermissionManager()
+			->userCan( 'read', $context->getUser(), $this->title );
 	}
 
 }

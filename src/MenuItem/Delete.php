@@ -42,7 +42,10 @@ class Delete extends Base {
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
-		return $this->title->exists() && $this->title->userCan( 'delete' );
+		return $this->title->exists() &&
+			\MediaWiki\MediaWikiServices::getInstance()
+				->getPermissionManager()
+				->userCan( 'delete', $context->getUser(), $this->title );
 	}
 
 }

@@ -50,7 +50,9 @@ class Edit extends Base {
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
-		return $this->title->userCan( 'edit' );
+		return \MediaWiki\MediaWikiServices::getInstance()
+			->getPermissionManager()
+			->userCan( 'edit', $context->getUser(), $this->title );
 	}
 
 }

@@ -43,8 +43,13 @@ class EditUserTalk extends BaseUserAction {
 	 */
 	public function shouldList( $context ) {
 		if ( $this->targetUser ) {
-			$targetUserTalkPage = $this->targetUser->getTalkPage();
-			return $targetUserTalkPage->userCan( 'edit' );
+			return \MediaWiki\MediaWikiServices::getInstance()
+				->getPermissionManager()
+				->userCan(
+					'edit',
+					$context->getUser(),
+					$this->targetUser->getTalkPage()
+				);
 		}
 		return false;
 	}

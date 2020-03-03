@@ -44,7 +44,9 @@ class ViewMedia extends BaseFileAction {
 	public function shouldList( $context ) {
 		if ( $this->file ) {
 			if ( $this->file->exists() ) {
-				return $this->title->userCan( 'read' );
+				return \MediaWiki\MediaWikiServices::getInstance()
+					->getPermissionManager()
+					->userCan( 'read', $context->getUser(), $this->title );
 			}
 		}
 		return false;
