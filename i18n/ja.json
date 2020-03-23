@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Aefgh39622"
 		]
 	},
 	"bs-contextmenu-desc": "さまざまなリンクを含むコンテキスト メニューを提供する",
@@ -16,6 +17,9 @@
 	"bs-contextmenu-page-protect": "ページを保護",
 	"bs-contextmenu-page-purge": "キャッシュを破棄してページを閲覧",
 	"bs-contextmenu-page-info": "ページ情報を閲覧",
+	"bs-contextmenu-media-reupload": "新しいバージョンをアップロード",
+	"bs-contextmenu-media-view-page": "ファイルの説明ページとファイル履歴を表示",
 	"bs-contextmenu-user-mail": "メールを送信",
+	"bs-contextmenu-user-talk": "トークページにメッセージを残す",
 	"bs-contextmenu-file-download": "ファイルをダウンロード"
 }
