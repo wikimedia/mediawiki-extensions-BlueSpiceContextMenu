@@ -1,6 +1,7 @@
 <?php
 
 use BlueSpice\Tests\BSApiTasksTestBase;
+use MediaWiki\MediaWikiServices;
 
 /**
  * @group medium
@@ -18,7 +19,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 			'wgEmailAuthentication' => false
 		] );
 
-		$file = RepoGroup::singleton()->getLocalRepo()->newFile(
+		$file = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()->newFile(
 			Title::makeTitle( NS_FILE, 'File.txt' )
 		);
 

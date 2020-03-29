@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\MediaWikiServices;
+
 abstract class BaseFileAction extends Base {
 
 	/**
@@ -23,7 +25,7 @@ abstract class BaseFileAction extends Base {
 	public function __construct( $title ) {
 		parent::__construct( $title );
 		if ( $title->getNamespace() === NS_FILE || $title->getNamespace() === NS_MEDIA ) {
-			$this->file = \wfFindFile( $title );
+			$this->file = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
 		}
 	}
 
