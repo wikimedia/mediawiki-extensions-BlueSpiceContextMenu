@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-contextmenu-desc": "Pruža kontekstne menije za različite vezije",
 	"prefs-contextmenu": "Kontekstni meni",
 	"bs-contextmenu-page-edit": "Uredi stranicu",

@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tobias Weichart<weichart@hallowelt.biz>",
-			"Robert Vogel <vogel@hallowelt.biz>",
+			"Hwboehm",
 			"Metalhead64",
-			"Hwboehm"
+			"Robert Vogel <vogel@hallowelt.biz>",
+			"Tobias Weichart<weichart@hallowelt.biz>"
 		]
 	},
 	"bs-contextmenu-desc": "Zeigt für bestimmte Links ein Kontextmenü an",

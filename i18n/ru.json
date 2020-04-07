@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
+			"CiaPan",
 			"Facenapalm",
-			"CiaPan"
+			"Okras"
 		]
 	},
 	"bs-contextmenu-desc": "Предоставляет контекстное меню для различных ссылок",
