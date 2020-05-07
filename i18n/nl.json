@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin",
 			"Esketti",
+			"Mar(c)",
 			"Siebrand",
-			"Mar(c)"
+			"Sjoerddebruin"
 		]
 	},
 	"bs-contextmenu-desc": "Biedt contextmenu's voor verschillende koppelingen",
