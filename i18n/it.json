@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Dansita"
+			"Dansita",
+			"Gianfranco"
 		]
 	},
 	"prefs-contextmenu": "Menu contestuale",
@@ -16,5 +17,8 @@
 	"bs-contextmenu-media-view-page": "Vedi pagina di descrizione del file e cronologia del file",
 	"bs-contextmenu-user-mail": "Invia email",
 	"bs-contextmenu-user-talk": "Lascia un messaggio sulla pagina di discussione",
-	"bs-contextmenu-file-download": "Scarica il file"
+	"bs-contextmenu-file-download": "Scarica il file",
+	"bs-contextmenu-desc": "Fornisce menu contestuali per diversi link",
+	"bs-contextmenu-pref-modus": "Apri (non su mobile) menu contestuale mediante:",
+	"bs-contextmenu-page-purge": "Svuota la cache e vedi la pagina"
 }
