@@ -6,6 +6,7 @@ use MediaWiki\MediaWikiServices;
 /**
  * @group medium
  * @group API
+ * @group Database
  * @group BlueSpice
  * @group BlueSpiceExtensions
  * @group BlueSpiceContextMenu
@@ -23,10 +24,11 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 			Title::makeTitle( NS_FILE, 'File.txt' )
 		);
 
+		$user = $this->getTestUser()->getUser();
 		$filepath = __DIR__ . '/data/file.txt';
 		$archive = $file->publish( $filepath );
 		$props = FSFile::getPropsFromPath( $filepath );
-		$file->recordUpload2( $archive->value, 'Test', 'Test', $props, false );
+		$file->recordUpload3( $archive->value, 'Test', 'Test', $user, $props );
 	}
 
 	protected function getModuleName() {
