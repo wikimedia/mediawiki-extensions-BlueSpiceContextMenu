@@ -53,7 +53,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 			$items = $response['payload']['items'];
 		}
 
-		$this->assertEquals( $expectedNoOfEintries, count( $items ),
+		$this->assertCount( $expectedNoOfEintries, $items,
 			'The number of returned items did not match expectations' );
 	}
 
