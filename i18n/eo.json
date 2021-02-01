@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jakub Fabijan",
 			"Mirin"
 		]
 	},
@@ -11,6 +12,8 @@
 	"bs-contextmenu-page-history": "Montri redakto-historion",
 	"bs-contextmenu-page-protect": "Protekti paĝon",
 	"bs-contextmenu-page-info": "Vidi informon pri paĝo",
+	"bs-contextmenu-media-reupload": "Alŝuti novan version",
+	"bs-contextmenu-media-view-page": "Vidi dosiera priskriba paĝo kaj dosiera historio",
 	"bs-contextmenu-user-mail": "Sendi retpoŝton",
 	"bs-contextmenu-file-download": "Elŝuti dosieron"
 }
