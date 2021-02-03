@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil",
-			"Platinawolf",
 			"Freked",
-			"Magol"
+			"Lokal Profil",
+			"Magol",
+			"Platinawolf"
 		]
 	},
 	"bs-contextmenu-desc": "Ger snabbmenyer för olika länkar",

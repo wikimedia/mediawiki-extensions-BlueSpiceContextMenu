@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aefgh39622",
 			"Shirayuki"
 		]
 	},
@@ -17,5 +18,8 @@
 	"bs-contextmenu-page-purge": "キャッシュを破棄してページを閲覧",
 	"bs-contextmenu-page-info": "ページ情報を閲覧",
 	"bs-contextmenu-user-mail": "メールを送信",
-	"bs-contextmenu-file-download": "ファイルをダウンロード"
+	"bs-contextmenu-file-download": "ファイルをダウンロード",
+	"bs-contextmenu-media-reupload": "新しいバージョンをアップロード",
+	"bs-contextmenu-media-view-page": "ファイルの説明ページとファイル履歴を表示",
+	"bs-contextmenu-user-talk": "トークページにメッセージを残す"
 }
