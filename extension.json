@@ -50,7 +50,7 @@
 		]
 	},
 	"DefaultUserOptions": {
-		"bs-contextmenu-modus" : "ctrl"
+		"bs-contextmenu-modus": "ctrl"
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\ContextMenu\\": "src/"
