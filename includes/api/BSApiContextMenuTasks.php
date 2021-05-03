@@ -99,7 +99,7 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 	private function convertItemObjectsToArray( $itemsObjects ) {
 		$items = [];
 
-		usort( $itemsObjects, function ( $a, $b ) {
+		usort( $itemsObjects, static function ( $a, $b ) {
 			return $a->getPosition() > $b->getPosition();
 		} );
 
