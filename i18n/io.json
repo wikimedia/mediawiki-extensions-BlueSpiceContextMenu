@@ -4,5 +4,7 @@
 			"Joao Xavier"
 		]
 	},
-	"bs-contextmenu-file-download": "Deskargar arkivo"
+	"bs-contextmenu-file-download": "Deskargar arkivo",
+	"bs-contextmenu-page-edit": "Redaktar pagino",
+	"bs-contextmenu-page-delete": "Efacez pagino"
 }
