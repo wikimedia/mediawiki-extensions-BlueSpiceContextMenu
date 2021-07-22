@@ -13,7 +13,7 @@ use MediaWiki\MediaWikiServices;
  */
 class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 
-	protected function setUp() : void {
+	protected function setUp(): void {
 		parent::setUp();
 
 		$this->setMwGlobals( [
