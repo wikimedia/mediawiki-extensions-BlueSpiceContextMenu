@@ -3,6 +3,7 @@
 		"authors": [
 			"Esketti",
 			"Mar(c)",
+			"McDutchie",
 			"Siebrand",
 			"Sjoerddebruin"
 		]
@@ -23,5 +24,7 @@
 	"bs-contextmenu-media-view-page": "Bestandsbeschrijvingspagina en bestandsgeschiedenis bekijken",
 	"bs-contextmenu-user-mail": "E-mail verzenden",
 	"bs-contextmenu-user-talk": "Bericht achterlaten op overlegpagina",
-	"bs-contextmenu-file-download": "Bestand downloaden"
+	"bs-contextmenu-file-download": "Bestand downloaden",
+	"apihelp-bs-contextmenu-tasks-description": "Stelt de contextmenu-items in context beschikbaar",
+	"apihelp-bs-contextmenu-tasks-summary": "Stelt de contextmenu-items in context beschikbaar"
 }
