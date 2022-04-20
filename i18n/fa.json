@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
+			"Beginneruser",
 			"Mjbmr"
 		]
 	},
@@ -13,12 +14,12 @@
 	"bs-contextmenu-page-edit": "ویرایش صفحه",
 	"bs-contextmenu-page-delete": "حذف صفحه",
 	"bs-contextmenu-page-move": "انتقال صفحه",
-	"bs-contextmenu-page-history": "مشاهده تاریخچه صفحه",
+	"bs-contextmenu-page-history": "مشاهده تاریخچۀ صفحه",
 	"bs-contextmenu-page-protect": "محافظت از صفحه",
-	"bs-contextmenu-page-purge": "پاکسازی حافظه نهان و مشاهده صفحه",
+	"bs-contextmenu-page-purge": "پاک‌سازی حافظۀ نهان و نمایش صفحه",
 	"bs-contextmenu-page-info": "مشاهده صفحه اطلاعات",
 	"bs-contextmenu-media-reupload": "بارگذاری نسخه تازه",
-	"bs-contextmenu-media-view-page": "مشاهده صفحه توضیحات پرونده و تاریخچه پرونده",
+	"bs-contextmenu-media-view-page": "مشاهده صفحه توضیحات پرونده و تاریخچۀ پرونده",
 	"bs-contextmenu-user-mail": "ارسال ایمیل",
 	"bs-contextmenu-user-talk": "در صفحه بحث پیام بگذارید",
 	"bs-contextmenu-file-download": "دریافت پرونده"
