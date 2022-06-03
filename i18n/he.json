@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2"
 		]
 	},
@@ -14,7 +15,7 @@
 	"bs-contextmenu-page-move": "העברת הדף",
 	"bs-contextmenu-page-history": "הצגת ההיסטוריה של הדף",
 	"bs-contextmenu-page-protect": "הגנה על הדף",
-	"bs-contextmenu-page-purge": "רענון המטמון והצגת הדף",
+	"bs-contextmenu-page-purge": "ניקוי המטמון והצגת הדף",
 	"bs-contextmenu-page-info": "הצגת מידע על הדף",
 	"bs-contextmenu-media-reupload": "העלאת גרסה חדשה",
 	"bs-contextmenu-media-view-page": "הצגת דף תיאור הקובץ וההיסטוריה שלו",
