@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\MediaWikiServices;
+
 abstract class BaseUserAction extends Base {
 
 	/**
@@ -23,7 +25,8 @@ abstract class BaseUserAction extends Base {
 	public function __construct( $title ) {
 		parent::__construct( $title );
 		if ( $title->getNamespace() === NS_USER ) {
-			$this->targetUser = \User::newFromName( $title->getPrefixedDBkey() );
+			$this->targetUser = MediaWikiServices::getInstance()->getUserFactory()
+				->newFromName( $title->getPrefixedDBkey() );
 		}
 	}
 
