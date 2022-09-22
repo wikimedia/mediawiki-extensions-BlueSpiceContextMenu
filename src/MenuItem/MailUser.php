@@ -42,14 +42,15 @@ class MailUser extends BaseUserAction {
 
 	/**
 	 *
-	 * @param \Context $context
+	 * @param \IContextSource $context
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
 		if ( $this->targetUser ) {
 			$user = $this->getUser();
 			$eMailPermissioErrors = SpecialEmailUser::getPermissionsError(
-					$user, $user->getEditToken()
+					$user,
+					$context->getCsrfTokenSet()->getToken()->toString()
 			);
 			return $eMailPermissioErrors;
 		}
