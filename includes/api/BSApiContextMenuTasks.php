@@ -61,7 +61,7 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 		}
 
 		$items = $this->convertItemObjectsToArray( $itemsObjects );
-		$this->getServices()->getHookContainer()->run( 'BsContextMenuGetItems', [
+		$this->services->getHookContainer()->run( 'BsContextMenuGetItems', [
 			&$items,
 			$oTitle
 		] );
