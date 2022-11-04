@@ -26,8 +26,10 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 
 		$user = $this->getTestUser()->getUser();
 		$filepath = __DIR__ . '/data/file.txt';
+
 		$archive = $file->publish( $filepath );
-		$props = FSFile::getPropsFromPath( $filepath );
+		$mwProps = new MWFileProps( MediaWikiServices::getInstance()->getMimeAnalyzer() );
+		$props = $mwProps->getPropsFromPath( $filepath, true );
 		$file->recordUpload3( $archive->value, 'Test', 'Test', $user, $props );
 	}
 
