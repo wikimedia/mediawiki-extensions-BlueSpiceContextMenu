@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
-			"Gianfranco"
+			"Gianfranco",
+			"GpieroMW"
 		]
 	},
 	"prefs-contextmenu": "Menu contestuale",
@@ -20,5 +21,7 @@
 	"bs-contextmenu-file-download": "Scarica il file",
 	"bs-contextmenu-desc": "Fornisce menu contestuali per diversi link",
 	"bs-contextmenu-pref-modus": "Apri (non su mobile) menu contestuale mediante:",
-	"bs-contextmenu-page-purge": "Svuota la cache e vedi la pagina"
+	"bs-contextmenu-page-purge": "Svuota la cache e vedi la pagina",
+	"apihelp-bs-contextmenu-tasks-description": "Fornisce le voci del menu contestuale nel contesto",
+	"apihelp-bs-contextmenu-tasks-summary": "Fornisce le voci del menu contestuale nel contesto"
 }
