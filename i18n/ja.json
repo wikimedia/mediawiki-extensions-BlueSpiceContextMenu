@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
-			"Shirayuki"
+			"Shirayuki",
+			"背番号4のエース"
 		]
 	},
 	"bs-contextmenu-desc": "さまざまなリンクを含むコンテキスト メニューを提供する",
@@ -21,5 +22,7 @@
 	"bs-contextmenu-media-view-page": "ファイルの説明ページとファイル履歴を表示",
 	"bs-contextmenu-user-mail": "メールを送信",
 	"bs-contextmenu-user-talk": "トークページにメッセージを残す",
-	"bs-contextmenu-file-download": "ファイルをダウンロード"
+	"bs-contextmenu-file-download": "ファイルをダウンロード",
+	"apihelp-bs-contextmenu-tasks-description": "コンテキスト内のコンテキストメニュー項目を提供します",
+	"apihelp-bs-contextmenu-tasks-summary": "コンテキスト内のコンテキストメニュー項目を提供します"
 }
