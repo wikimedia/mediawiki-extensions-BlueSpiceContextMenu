@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
 	"bs-contextmenu-page-edit": "Խմբագրել էջ",
 	"bs-contextmenu-page-delete": "Ջնջել էջը",
 	"bs-contextmenu-page-history": "Դիտել էջի պատմությունը",
-	"bs-contextmenu-page-protect": "Պաշտպանել էջը"
+	"bs-contextmenu-page-protect": "Պաշտպանել էջը",
+	"prefs-contextmenu": "Համատեքստային ընտրացանկ"
 }
