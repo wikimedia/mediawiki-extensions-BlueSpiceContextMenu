@@ -25,7 +25,9 @@ class Download extends BaseFileAction {
 	 * @return string String of the URL.
 	 */
 	public function getUrl() {
-		return $this->file->getURL();
+		// add a query parameter to force download
+		$url = $this->file->getURL() . "?download=1";
+		return $url;
 	}
 
 	/**
