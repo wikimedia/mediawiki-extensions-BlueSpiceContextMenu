@@ -22,6 +22,5 @@
 	"bs-contextmenu-user-mail": "Pošlji pošto",
 	"bs-contextmenu-user-talk": "Pusti sporočilo na pogovorni strani",
 	"bs-contextmenu-file-download": "Prenesi datoteko",
-	"apihelp-bs-contextmenu-tasks-description": "Zagotavlja elemente kontekstnega menija v kontekstu",
 	"apihelp-bs-contextmenu-tasks-summary": "Zagotavlja elemente kontekstnega menija v kontekstu"
 }

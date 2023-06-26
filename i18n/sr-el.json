@@ -15,6 +15,5 @@
 	"bs-contextmenu-media-view-page": "Vidi stranicu opisa datoteke i njenu istoriju",
 	"bs-contextmenu-user-mail": "Pošalji e-poruku",
 	"bs-contextmenu-user-talk": "Ostavi poruku na stranici za razgovor",
-	"bs-contextmenu-file-download": "Preuzmi datoteku",
-	"apihelp-bs-contextmenu-tasks-description": "Omogućava stavke kontekstvnog menija u kontekstu"
+	"bs-contextmenu-file-download": "Preuzmi datoteku"
 }

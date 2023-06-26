@@ -23,6 +23,5 @@
 	"bs-contextmenu-user-mail": "メールを送信",
 	"bs-contextmenu-user-talk": "トークページにメッセージを残す",
 	"bs-contextmenu-file-download": "ファイルをダウンロード",
-	"apihelp-bs-contextmenu-tasks-description": "コンテキスト内のコンテキストメニュー項目を提供します",
 	"apihelp-bs-contextmenu-tasks-summary": "コンテキスト内のコンテキストメニュー項目を提供します"
 }
