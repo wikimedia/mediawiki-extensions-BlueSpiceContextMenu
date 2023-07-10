@@ -4,5 +4,7 @@
 			"Bosogo"
 		]
 	},
-	"bs-contextmenu-file-download": "Файлды жүктөп алуу"
+	"bs-contextmenu-file-download": "Файлды жүктөп алуу",
+	"bs-contextmenu-page-edit": "Баракты түзөтүү",
+	"bs-contextmenu-page-delete": "Баракты өчүрүү"
 }
