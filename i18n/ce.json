@@ -12,5 +12,7 @@
 	"bs-contextmenu-page-info": "Хааман агӀоне хьажа",
 	"bs-contextmenu-media-reupload": "Чуйаккха керла верси",
 	"bs-contextmenu-user-mail": "Кехат дахьийтар",
-	"bs-contextmenu-file-download": "Файл чуйаккхар"
+	"bs-contextmenu-file-download": "Файл чуйаккхар",
+	"bs-contextmenu-page-history": "АгӀонан истори хьажар",
+	"bs-contextmenu-page-purge": "Кэш дӀацӀанйар а, агӀоне хьажар а"
 }
