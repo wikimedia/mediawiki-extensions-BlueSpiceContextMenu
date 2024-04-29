@@ -42,7 +42,7 @@ class Purge extends Base {
 	 * @return bool
 	 */
 	public function shouldList( $context ) {
-		return $this->title->exists() &&
+		return $this->title->isKnown() &&
 			\MediaWiki\MediaWikiServices::getInstance()
 				->getPermissionManager()
 				->userCan( 'purge', $context->getUser(), $this->title );
