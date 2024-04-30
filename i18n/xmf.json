@@ -4,14 +4,14 @@
 			"Narazeni"
 		]
 	},
-	"bs-contextmenu-page-edit": "\u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e8 \u10e0\u10d4\u10d3\u10d0\u10e5\u10e2\u10d8\u10e0\u10d0\u10e4\u10d0",
-	"bs-contextmenu-page-move": "\u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e8 \u10d2\u10d8\u10dc\u10dd\u10e6\u10d0\u10da\u10d0",
-	"bs-contextmenu-page-protect": "\u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e8 \u10d7\u10ee\u10d8\u10da\u10e3\u10d0",
-	"bs-contextmenu-user-talk": "\u10dc\u10d0\u10ed\u10d0\u10e0\u10d0\u10e8 \u10d3\u10dd\u10e2\u10d4\u10d1\u10d0 \u10e1\u10ee\u10e3\u10dc\u10e3\u10d0\u10e8 \u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e1",
-	"bs-contextmenu-page-delete": "\u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e8 \u10da\u10d0\u10e1\u10e3\u10d0",
-	"bs-contextmenu-page-history": "\u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e8 \u10d8\u10e1\u10e2\u10dd\u10e0\u10d8\u10d0\u10e8 \u10eb\u10d8\u10e0\u10d0\u10e4\u10d0",
-	"bs-contextmenu-page-info": "\u10ee\u10d0\u10e1\u10f7\u10da\u10d0\u10e8 \u10d8\u10dc\u10e4\u10dd\u10e0\u10db\u10d0\u10ea\u10d8\u10d0\u10e8 \u10eb\u10d8\u10e0\u10d0\u10e4\u10d0",
-	"bs-contextmenu-media-reupload": "\u10d0\u10ee\u10d0\u10da\u10d8 \u10d5\u10d4\u10e0\u10e1\u10d8\u10d0\u10e8 \u10d4\u10ee\u10d0\u10e0\u10d2\u10e3\u10d0",
-	"bs-contextmenu-user-mail": "\u10d4\u10da\u10d4\u10e5\u10e2\u10e0\u10dd\u10dc\u10e3\u10da\u10d8 \u10e4\u10dd\u10e1\u10e2\u10d0\u10e8 \u10ef\u10e6\u10dd\u10dc\u10e3\u10d0",
-	"bs-contextmenu-file-download": "\u10e4\u10d0\u10d8\u10da\u10d8\u10e8 \u10d2\u10f7\u10db\u10dd\u10ee\u10d0\u10e0\u10d2\u10e3\u10d0"
+	"bs-contextmenu-page-edit": "ხასჷლაშ რედაქტირაფა",
+	"bs-contextmenu-page-move": "ხასჷლაშ გინოღალა",
+	"bs-contextmenu-page-protect": "ხასჷლაშ თხილუა",
+	"bs-contextmenu-user-talk": "ნაჭარაშ დოტება სხუნუაშ ხასჷლას",
+	"bs-contextmenu-page-delete": "ხასჷლაშ ლასუა",
+	"bs-contextmenu-page-history": "ხასჷლაშ ისტორიაშ ძირაფა",
+	"bs-contextmenu-page-info": "ხასჷლაშ ინფორმაციაშ ძირაფა",
+	"bs-contextmenu-media-reupload": "ახალი ვერსიაშ ეხარგუა",
+	"bs-contextmenu-user-mail": "ელექტრონული ფოსტაშ ჯღონუა",
+	"bs-contextmenu-file-download": "ფაილიშ გჷმოხარგუა"
 }

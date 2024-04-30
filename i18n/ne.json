@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"\u092a\u0930\u094d\u0935\u0924 \u0938\u0941\u092c\u0947\u0926\u0940",
-			"\u0939\u093f\u092e\u093e\u0932 \u0938\u0941\u092c\u0947\u0926\u0940"
+			"पर्वत सुबेदी",
+			"हिमाल सुबेदी"
 		]
 	},
-	"bs-contextmenu-user-talk": "\u0935\u093e\u0930\u094d\u0924\u093e\u0932\u093e\u092a \u092a\u0943\u0937\u094d\u0920\u092e\u093e \u0938\u0928\u094d\u0926\u0947\u0936 \u091b\u094b\u0921\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
-	"bs-contextmenu-file-download": "\u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0917\u0930\u093f\u090f\u0915\u093e \u092b\u093e\u0907\u0932\u0939\u0930\u0942",
-	"bs-contextmenu-page-edit": "\u092a\u0943\u0937\u094d\u0920 \u0938\u092e\u094d\u092a\u093e\u0926\u0928 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"
+	"bs-contextmenu-user-talk": "वार्तालाप पृष्ठमा सन्देश छोड्नुहोस्",
+	"bs-contextmenu-file-download": "डाउनलोड गरिएका फाइलहरू",
+	"bs-contextmenu-page-edit": "पृष्ठ सम्पादन गर्नुहोस्"
 }
