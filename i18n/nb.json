@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald S\u00f8by"
+			"Jon Harald Søby"
 		]
 	},
 	"bs-contextmenu-desc": "Gir kontekstmenyer for diverse lenker",
 	"prefs-contextmenu": "Kontekstmeny",
-	"bs-contextmenu-pref-modus": "\u00c5pne kontekstmeny ved \u00e5 (ikke for mobil):",
-	"bs-contextmenu-pref-modus-just-right-mouse": "Klikke p\u00e5 h\u00f8yre museknapp (\u00e5 trykke <kbd>Ctrl<\/kbd> vil gi nettleserens kontekstmeny)",
-	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Klikke p\u00e5 h\u00f8yre museknapp mens du holder <kbd>Ctrl<\/kbd> (vanlig klikk med h\u00f8yre museknapp vil vise nettleserens kontekstmeny)",
+	"bs-contextmenu-pref-modus": "Åpne kontekstmeny ved å (ikke for mobil):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Klikke på høyre museknapp (å trykke <kbd>Ctrl</kbd> vil gi nettleserens kontekstmeny)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Klikke på høyre museknapp mens du holder <kbd>Ctrl</kbd> (vanlig klikk med høyre museknapp vil vise nettleserens kontekstmeny)",
 	"bs-contextmenu-page-edit": "Rediger side",
 	"bs-contextmenu-page-delete": "Slett side",
 	"bs-contextmenu-page-move": "Flytt side",
@@ -19,7 +19,7 @@
 	"bs-contextmenu-media-reupload": "Last opp ny versjon",
 	"bs-contextmenu-media-view-page": "Vis filbeskrivelsesside og filhistorikk",
 	"bs-contextmenu-user-mail": "Send e-post",
-	"bs-contextmenu-user-talk": "Legg igjen beskjed p\u00e5 diskusjonsside",
+	"bs-contextmenu-user-talk": "Legg igjen beskjed på diskusjonsside",
 	"bs-contextmenu-file-download": "Last ned fil",
 	"apihelp-bs-contextmenu-tasks-description": "Gir kontekstmenyelementer i kontekst",
 	"apihelp-bs-contextmenu-tasks-summary": "Gir kontekstmenyelementer i kontekst"

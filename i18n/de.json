@@ -7,16 +7,16 @@
 			"Tobias Weichart<weichart@hallowelt.biz>"
 		]
 	},
-	"bs-contextmenu-desc": "Zeigt f\u00fcr bestimmte Links ein Kontextmen\u00fc an",
-	"prefs-contextmenu": "Kontextmen\u00fc",
-	"bs-contextmenu-pref-modus": "Kontextmen\u00fc \u00f6ffnen (nicht f\u00fcr Mobile):",
-	"bs-contextmenu-pref-modus-just-right-mouse": "Durch Klicken der rechten Maustaste (Bei gedr\u00fcckter Strg-Taste, \u00f6ffnet das originale Browser-Men\u00fc)",
-	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Durch Klicken der rechten Maustaste bei gedr\u00fcckter Strg-Taste (Normaler rechter Mausklick, \u00f6ffnet das originale Browser-Men\u00fc)",
+	"bs-contextmenu-desc": "Zeigt für bestimmte Links ein Kontextmenü an",
+	"prefs-contextmenu": "Kontextmenü",
+	"bs-contextmenu-pref-modus": "Kontextmenü öffnen (nicht für Mobile):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Durch Klicken der rechten Maustaste (Bei gedrückter Strg-Taste, öffnet das originale Browser-Menü)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Durch Klicken der rechten Maustaste bei gedrückter Strg-Taste (Normaler rechter Mausklick, öffnet das originale Browser-Menü)",
 	"bs-contextmenu-page-edit": "Seite bearbeiten",
-	"bs-contextmenu-page-delete": "Seite l\u00f6schen",
+	"bs-contextmenu-page-delete": "Seite löschen",
 	"bs-contextmenu-page-move": "Seite verschieben",
 	"bs-contextmenu-page-history": "Versionsgeschichte der Seite anzeigen",
-	"bs-contextmenu-page-protect": "Seite sch\u00fctzen",
+	"bs-contextmenu-page-protect": "Seite schützen",
 	"bs-contextmenu-page-purge": "Seitencache leeren und Seite anzeigen",
 	"bs-contextmenu-page-info": "Seiten-Informationen anzeigen",
 	"bs-contextmenu-media-reupload": "Neue Version dieser Datei hochladen",
@@ -24,6 +24,6 @@
 	"bs-contextmenu-user-mail": "E-Mail schreiben",
 	"bs-contextmenu-user-talk": "Eine Nachricht auf der Benutzerdiskussionsseite hinterlassen",
 	"bs-contextmenu-file-download": "Datei herunterladen",
-	"apihelp-bs-contextmenu-tasks-description": "Stellt die Kontextmen\u00fceintr\u00e4ge im Kontext zur Verf\u00fcgung",
-	"apihelp-bs-contextmenu-tasks-summary": "Stellt die Kontextmen\u00fceintr\u00e4ge im Kontext zur Verf\u00fcgung"
+	"apihelp-bs-contextmenu-tasks-description": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung",
+	"apihelp-bs-contextmenu-tasks-summary": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung"
 }
