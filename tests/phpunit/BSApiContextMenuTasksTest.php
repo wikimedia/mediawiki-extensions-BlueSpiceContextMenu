@@ -1,6 +1,7 @@
 <?php
 
 use BlueSpice\Tests\BSApiTasksTestBase;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -16,9 +17,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 	protected function setUp(): void {
 		parent::setUp();
 
-		$this->setMwGlobals( [
-			'wgEmailAuthentication' => false
-		] );
+		$this->overrideConfigValue( MainConfigNames::EmailAuthentication, false );
 
 		$file = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()->newFile(
 			Title::makeTitle( NS_FILE, 'File.txt' )
