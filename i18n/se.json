@@ -4,5 +4,6 @@
 			"Yupik"
 		]
 	},
-	"bs-contextmenu-page-delete": "Sihko siiddu"
+	"bs-contextmenu-page-delete": "Sihko siiddu",
+	"bs-contextmenu-page-purge": "Gurre gaskamuittu ja čájet siiddu"
 }
