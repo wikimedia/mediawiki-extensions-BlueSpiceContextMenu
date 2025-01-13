@@ -47,4 +47,20 @@ interface IMenuItem {
 	 * @return int
 	 */
 	public function getPosition();
+
+	/**
+	 * @return array
+	 */
+	public function getFlags(): array;
+
+	/**
+	 * @return bool
+	 */
+	public function isPrimary(): bool;
+
+	/**
+	 * Key that this item overrides
+	 * @return string|null
+	 */
+	public function getOverride(): ?string;
 }

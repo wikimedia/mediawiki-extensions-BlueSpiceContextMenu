@@ -9,7 +9,7 @@ class EditUserTalk extends BaseUserAction {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'icon-text';
+		return 'edit';
 	}
 
 	/**

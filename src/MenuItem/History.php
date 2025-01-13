@@ -9,7 +9,7 @@ class History extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-history';
+		return 'history';
 	}
 
 	/**

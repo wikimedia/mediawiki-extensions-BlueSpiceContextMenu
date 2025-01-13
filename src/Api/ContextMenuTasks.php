@@ -1,10 +1,15 @@
 <?php
 
+namespace BlueSpice\ContextMenu\Api;
+
 use BlueSpice\ContextMenu\IMenuItem;
 use BlueSpice\ExtensionAttributeBasedRegistry;
+use Exception;
+use MediaWiki\Api\ApiResult;
+use stdClass;
+use Title;
 
-class BSApiContextMenuTasks extends BSApiTasksBase {
-
+class ContextMenuTasks extends \BSApiTasksBase {
 	protected $aTasks = [
 		'getMenuItems' => [
 			'examples' => [
@@ -32,13 +37,13 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 
 	/**
 	 *
-	 * @param type $oData
-	 * @param type $aParams
-	 * @return type
+	 * @param stdClass $oData
+	 * @param array $aParams
+	 * @return ApiResult
 	 * @throws Exception
 	 */
 	protected function task_getMenuItems( $oData, $aParams ) {
-		$oResult = $this->makeStandardReturn();
+		$oResult = $this->getResult();
 
 		if ( !isset( $oData->title ) || empty( $oData->title ) ) {
 			return $oResult;
@@ -54,13 +59,13 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 				throw new Exception( "Callback for '$itemId' invalid!" );
 			}
 			$item = call_user_func_array( $factoryCallback, [ $oTitle ] );
-			if ( $item instanceof BlueSpice\ContextMenu\IMenuItem === false ) {
+			if ( $item instanceof IMenuItem === false ) {
 				throw new Exception( "Callback for '$itemId' returned no IMenuItem!" );
 			}
 			$itemsObjects[$itemId] = $item;
 		}
 
-		$items = $this->convertItemObjectsToArray( $itemsObjects );
+		$items = $this->prepareForOuput( $itemsObjects );
 		$this->services->getHookContainer()->run( 'BsContextMenuGetItems', [
 			&$items,
 			$oTitle
@@ -72,11 +77,11 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 
 	/**
 	 *
-	 * @param type &$oResult
+	 * @param ApiResult &$oResult
 	 * @param array $aItems
-	 * @return type
+	 * @return ApiResult
 	 */
-	protected function returnItems( &$oResult, $aItems ) {
+	protected function returnItems( ApiResult &$oResult, $aItems ) {
 		$oResult->success = true;
 		$oResult->payload_count = count( $aItems );
 		$oResult->payload = [ 'items' => $aItems ];
@@ -96,27 +101,25 @@ class BSApiContextMenuTasks extends BSApiTasksBase {
 	 * @param IMenuItem[] $itemsObjects
 	 * @return array
 	 */
-	private function convertItemObjectsToArray( $itemsObjects ) {
+	private function prepareForOuput( array $itemsObjects ) {
 		$items = [];
 
-		usort( $itemsObjects, static function ( $a, $b ) {
-			return $a->getPosition() > $b->getPosition();
-		} );
-
-		foreach ( $itemsObjects as $item ) {
+		foreach ( $itemsObjects as $itemId => $item ) {
 			if ( !$item->shouldList( $this->getContext() ) ) {
 				continue;
 			}
-			$itemArray = [
+			$items[] = [
 				'text' => $item->getLabelMessage()->text(),
 				'href' => $item->getUrl(),
 				'id' => $item->getId(),
-				'iconCls' => $item->getIconClass()
+				'icon' => $item->getIconClass(),
+				'flags' => $item->getFlags(),
+				'position' => $item->getPosition(),
+				'primary' => $item->isPrimary(),
+				'overrides' => $item->getOverride()
 			];
-			$items[] = $itemArray;
 		}
 
 		return $items;
 	}
-
 }

@@ -50,41 +50,36 @@
 		]
 	},
 	"DefaultUserOptions": {
-		"bs-contextmenu-modus": "ctrl"
+		"bs-contextmenu-modus": "no-ctrl"
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\ContextMenu\\": "src/"
-	},
-	"AutoloadClasses": {
-		"BSApiContextMenuTasks": "includes/api/BSApiContextMenuTasks.php"
 	},
 	"Hooks": {
 		"GetPreferences": "\\BlueSpice\\ContextMenu\\Hook\\GetPreferences\\AddModus::callback",
 		"BeforePageDisplay": "\\BlueSpice\\ContextMenu\\Hook\\BeforePageDisplay\\AddModules::callback"
 	},
 	"APIModules": {
-		"bs-contextmenu-tasks": "BSApiContextMenuTasks"
+		"bs-contextmenu-tasks": "BlueSpice\\ContextMenu\\Api\\ContextMenuTasks"
 	},
 	"ResourceModules": {
 		"ext.bluespice.contextmenu": {
-			"scripts": "bluespice.contextmenu.js",
+			"scripts": [
+				"ContextMenu.js",
+				"bluespice.contextmenu.js"
+			],
+			"styles": [
+				"contextMenu.css"
+			],
 			"messages": [
-				"bs-contextmenu-page-edit",
-				"bs-contextmenu-page-delete",
-				"bs-contextmenu-page-move",
-				"bs-contextmenu-page-history",
-				"bs-contextmenu-page-protect",
-				"bs-contextmenu-page-purge",
-				"bs-contextmenu-page-info",
-				"bs-contextmenu-media-reupload",
-				"bs-contextmenu-media-view-page",
-				"bs-contextmenu-user-mail",
-				"bs-contextmenu-user-talk",
-				"bs-contextmenu-file-download"
+				"bs-contextmenu-open-in-new-tab"
 			],
 			"dependencies": [
 				"user.options",
-				"ext.bluespice"
+				"oojs-ui",
+				"oojs-ui.styles.icons-editing-core",
+				"oojs-ui.styles.icons-content",
+				"oojs-ui.styles.icons-moderation"
 			]
 		}
 	},

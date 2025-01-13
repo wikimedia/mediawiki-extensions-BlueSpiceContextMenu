@@ -9,7 +9,7 @@ class Protect extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-shield';
+		return 'lock';
 	}
 
 	/**

@@ -9,7 +9,7 @@ class Purge extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-purge';
+		return 'reload';
 	}
 
 	/**

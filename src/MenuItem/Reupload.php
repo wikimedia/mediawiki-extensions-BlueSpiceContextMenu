@@ -9,7 +9,7 @@ class Reupload extends BaseFileAction {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-upload';
+		return 'upload';
 	}
 
 	/**

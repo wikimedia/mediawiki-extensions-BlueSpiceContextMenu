@@ -9,7 +9,7 @@ class Download extends BaseFileAction {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-download';
+		return 'download';
 	}
 
 	/**
@@ -26,8 +26,7 @@ class Download extends BaseFileAction {
 	 */
 	public function getUrl() {
 		// add a query parameter to force download
-		$url = $this->file->getURL() . "?download=1";
-		return $url;
+		return $this->file->getURL() . "?download=1";
 	}
 
 	/**

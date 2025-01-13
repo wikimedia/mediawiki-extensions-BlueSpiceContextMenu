@@ -11,7 +11,7 @@ class Move extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-shuffle';
+		return 'share';
 	}
 
 	/**
