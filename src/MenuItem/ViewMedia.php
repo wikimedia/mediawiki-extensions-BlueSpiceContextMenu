@@ -9,7 +9,7 @@ class ViewMedia extends BaseFileAction {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-text';
+		return 'article';
 	}
 
 	/**

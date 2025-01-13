@@ -9,7 +9,7 @@ class Watch extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-magnifying-glass';
+		return 'star';
 	}
 
 	/**

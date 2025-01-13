@@ -14,7 +14,7 @@ class MailUser extends BaseUserAction {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'icon-message';
+		return 'message';
 	}
 
 	/**

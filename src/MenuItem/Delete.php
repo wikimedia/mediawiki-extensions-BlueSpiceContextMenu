@@ -9,7 +9,14 @@ class Delete extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-bin';
+		return 'trash';
+	}
+
+	/**
+	 * @return string[]
+	 */
+	public function getFlags(): array {
+		return [ 'destructive' ];
 	}
 
 	/**

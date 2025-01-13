@@ -9,7 +9,7 @@ class Whatlinkshere extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'bs-icon-earth';
+		return 'search';
 	}
 
 	/**

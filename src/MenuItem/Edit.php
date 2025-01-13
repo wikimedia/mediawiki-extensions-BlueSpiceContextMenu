@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use IContextSource;
+
 class Edit extends Base {
 
 	/**
@@ -9,7 +11,11 @@ class Edit extends Base {
 	 * @return string
 	 */
 	public function getIconClass() {
-		return 'icon-pencil';
+		return 'edit';
+	}
+
+	public function getFlags(): array {
+		return [ 'progressive' ];
 	}
 
 	/**
@@ -45,8 +51,15 @@ class Edit extends Base {
 	}
 
 	/**
+	 * @return bool
+	 */
+	public function isPrimary(): bool {
+		return true;
+	}
+
+	/**
 	 *
-	 * @param \Context $context
+	 * @param IContextSource $context
 	 * @return bool
 	 */
 	public function shouldList( $context ) {

@@ -1,0 +1,16 @@
+.bs-context-menu {
+    /* Make sure its on top of the Popups popup */
+    z-index: 111;
+}
+.bs-context-menu-item {
+    width: 100%;
+    display: block;
+    margin: 0 !important;
+}
+.bs-context-menu-item a {
+    width: 100%;
+    padding-right: 10px;
+}
+.bs-context-menu-item a span.oo-ui-labelElement-label {
+    white-space: break-spaces;
+}
