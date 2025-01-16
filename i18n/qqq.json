@@ -29,5 +29,6 @@
 	"bs-contextmenu-user-talk": "Label for menu item that that opens talk page of user in edit mode",
 	"bs-contextmenu-file-download": "Label for menu item that that opens download link of a file\n{{Identical|Download}}",
 	"apihelp-bs-contextmenu-tasks-description": "Describes the API endpoint that context menu items\n{{doc-apihelp-description|bs-contextmenu-tasks}}",
-	"apihelp-bs-contextmenu-tasks-summary": "Describes the API endpoint that context menu items\n{{doc-apihelp-summary|bs-contextmenu-tasks}}"
+	"apihelp-bs-contextmenu-tasks-summary": "Describes the API endpoint that context menu items\n{{doc-apihelp-summary|bs-contextmenu-tasks}}",
+	"bs-contextmenu-open-in-new-tab": "Label for menu item that opens the page in a new tab"
 }
