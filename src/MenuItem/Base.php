@@ -3,7 +3,7 @@
 namespace BlueSpice\ContextMenu\MenuItem;
 
 use BlueSpice\ContextMenu\IMenuItem;
-use Title;
+use MediaWiki\Title\Title;
 
 abstract class Base implements IMenuItem {
 

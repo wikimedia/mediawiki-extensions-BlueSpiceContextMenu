@@ -6,8 +6,8 @@ use BlueSpice\ContextMenu\IMenuItem;
 use BlueSpice\ExtensionAttributeBasedRegistry;
 use Exception;
 use MediaWiki\Api\ApiResult;
+use MediaWiki\Title\Title;
 use stdClass;
-use Title;
 
 class ContextMenuTasks extends \BSApiTasksBase {
 	protected $aTasks = [
