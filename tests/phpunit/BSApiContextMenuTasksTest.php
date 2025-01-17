@@ -3,6 +3,7 @@
 use BlueSpice\Tests\BSApiTasksTestBase;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 /**
  * @group medium
