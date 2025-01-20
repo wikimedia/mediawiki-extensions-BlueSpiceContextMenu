@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"bs-contextmenu-desc": "Weist fir verschidde Linken e kontextuelle Menü",
@@ -16,5 +17,6 @@
 	"bs-contextmenu-media-reupload": "Nei Versioun eroplueden",
 	"bs-contextmenu-user-mail": "E-Mail schécken",
 	"bs-contextmenu-user-talk": "Message op d'Diskussiounssäit schreiwen",
-	"bs-contextmenu-file-download": "Fichier eroflueden"
+	"bs-contextmenu-file-download": "Fichier eroflueden",
+	"bs-contextmenu-open-in-new-tab": "An engem neien Tab opmaachen"
 }
