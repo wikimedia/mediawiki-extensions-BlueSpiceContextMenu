@@ -3,6 +3,7 @@
 namespace BlueSpice\ContextMenu\MenuItem;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\User;
 use RequestContext;
 use SpecialEmailUser;
 use SpecialPage;
@@ -69,7 +70,7 @@ class MailUser extends BaseUserAction {
 
 	/**
 	 *
-	 * @return \User
+	 * @return User
 	 */
 	public function getUser() {
 		$context = RequestContext::getMain();
