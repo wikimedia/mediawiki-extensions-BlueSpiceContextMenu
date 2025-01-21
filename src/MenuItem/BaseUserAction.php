@@ -4,6 +4,7 @@ namespace BlueSpice\ContextMenu\MenuItem;
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
 
 abstract class BaseUserAction extends Base {
 
@@ -15,7 +16,7 @@ abstract class BaseUserAction extends Base {
 
 	/**
 	 *
-	 * @var \User
+	 * @var User
 	 */
 	protected $targetUser = null;
 
