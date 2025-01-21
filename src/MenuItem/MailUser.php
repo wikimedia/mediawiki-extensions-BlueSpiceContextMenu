@@ -2,9 +2,9 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\User;
-use RequestContext;
 use SpecialEmailUser;
 use SpecialPage;
 
