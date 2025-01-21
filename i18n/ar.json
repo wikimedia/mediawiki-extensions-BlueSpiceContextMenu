@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sonic N800",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"bs-contextmenu-desc": "يوفر قوائم سياق لروابط مختلفة",
@@ -22,5 +23,6 @@
 	"bs-contextmenu-user-mail": "إرسال بريد",
 	"bs-contextmenu-user-talk": "ترك رسالة على صفحة النقاش",
 	"bs-contextmenu-file-download": "تنزيل الملف",
-	"apihelp-bs-contextmenu-tasks-summary": "يوفر عناصر قائمة السياق في السياق"
+	"apihelp-bs-contextmenu-tasks-summary": "يوفر عناصر قائمة السياق في السياق",
+	"bs-contextmenu-open-in-new-tab": "افتح في علامة تبويب جديدة"
 }
