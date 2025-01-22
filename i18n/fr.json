@@ -25,5 +25,6 @@
 	"bs-contextmenu-user-talk": "Laisser un message sur la page de discussion",
 	"bs-contextmenu-file-download": "Télécharger un fichier",
 	"apihelp-bs-contextmenu-tasks-description": "Fournit les éléments du menu contextuel dans le contexte",
-	"apihelp-bs-contextmenu-tasks-summary": "Fournit les éléments de menu de contexte présents dans le contexte"
+	"apihelp-bs-contextmenu-tasks-summary": "Fournit les éléments de menu de contexte présents dans le contexte",
+	"bs-contextmenu-open-in-new-tab": "Ouvrir dans un nouvel onglet"
 }
