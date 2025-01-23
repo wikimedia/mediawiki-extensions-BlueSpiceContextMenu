@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Message\Message;
 use SpecialPage;
 
 class Move extends Base {
@@ -16,7 +17,7 @@ class Move extends Base {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'bs-contextmenu-page-move' );

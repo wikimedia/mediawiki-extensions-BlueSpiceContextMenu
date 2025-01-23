@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Message\Message;
+
 class Whatlinkshere extends Base {
 
 	/**
@@ -14,7 +16,7 @@ class Whatlinkshere extends Base {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'whatlinkshere' );

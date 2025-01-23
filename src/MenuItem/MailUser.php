@@ -4,6 +4,7 @@ namespace BlueSpice\ContextMenu\MenuItem;
 
 use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Message\Message;
 use MediaWiki\User\User;
 use SpecialEmailUser;
 use SpecialPage;
@@ -20,7 +21,7 @@ class MailUser extends BaseUserAction {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'bs-contextmenu-user-mail' );

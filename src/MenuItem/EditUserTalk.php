@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Message\Message;
+
 class EditUserTalk extends BaseUserAction {
 
 	/**
@@ -14,7 +16,7 @@ class EditUserTalk extends BaseUserAction {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'bs-contextmenu-user-talk' );

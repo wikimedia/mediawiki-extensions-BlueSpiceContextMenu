@@ -2,10 +2,12 @@
 
 namespace BlueSpice\ContextMenu;
 
+use MediaWiki\Message\Message;
+
 interface IMenuItem {
 
 	/**
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage();
 

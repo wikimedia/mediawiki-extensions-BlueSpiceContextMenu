@@ -3,6 +3,7 @@
 namespace BlueSpice\ContextMenu\MenuItem;
 
 use IContextSource;
+use MediaWiki\Message\Message;
 
 class Edit extends Base {
 
@@ -20,7 +21,7 @@ class Edit extends Base {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'bs-contextmenu-page-edit' );
