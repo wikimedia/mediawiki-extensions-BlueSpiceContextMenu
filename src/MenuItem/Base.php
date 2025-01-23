@@ -3,6 +3,7 @@
 namespace BlueSpice\ContextMenu\MenuItem;
 
 use BlueSpice\ContextMenu\IMenuItem;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Title\Title;
 
 abstract class Base implements IMenuItem {
@@ -40,7 +41,7 @@ abstract class Base implements IMenuItem {
 
 	/**
 	 *
-	 * @param \IContextSource $context
+	 * @param IContextSource $context
 	 * @return bool
 	 */
 	public function shouldList( $context ) {

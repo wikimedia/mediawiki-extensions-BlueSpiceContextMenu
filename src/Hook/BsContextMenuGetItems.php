@@ -28,6 +28,7 @@
 namespace BlueSpice\ContextMenu\Hook;
 
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Title\Title;
 
 abstract class BsContextMenuGetItems extends \BlueSpice\Hook {
@@ -63,7 +64,7 @@ abstract class BsContextMenuGetItems extends \BlueSpice\Hook {
 	}
 
 	/**
-	 * @param \IContextSource $context
+	 * @param IContextSource $context
 	 * @param Config $config
 	 * @param array &$items
 	 * @param Title $title
