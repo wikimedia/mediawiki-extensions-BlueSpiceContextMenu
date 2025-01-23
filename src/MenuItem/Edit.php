@@ -2,7 +2,7 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
-use IContextSource;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Message\Message;
 
 class Edit extends Base {

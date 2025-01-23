@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
@@ -45,7 +46,7 @@ class MailUser extends BaseUserAction {
 
 	/**
 	 *
-	 * @param \IContextSource $context
+	 * @param IContextSource $context
 	 * @return bool
 	 */
 	public function shouldList( $context ) {

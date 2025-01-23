@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ContextMenu;
 
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Message\Message;
 
 interface IMenuItem {
@@ -40,7 +41,7 @@ interface IMenuItem {
 	public function getChildren();
 
 	/**
-	 * @param \IContextSource $context
+	 * @param IContextSource $context
 	 * @return bool
 	 */
 	public function shouldList( $context );
