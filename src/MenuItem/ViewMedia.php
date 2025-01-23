@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Message\Message;
+
 class ViewMedia extends BaseFileAction {
 
 	/**
@@ -14,7 +16,7 @@ class ViewMedia extends BaseFileAction {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'bs-contextmenu-media-view-page' );

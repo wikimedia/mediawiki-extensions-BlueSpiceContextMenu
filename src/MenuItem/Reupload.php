@@ -2,6 +2,8 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\Message\Message;
+
 class Reupload extends BaseFileAction {
 
 	/**
@@ -14,7 +16,7 @@ class Reupload extends BaseFileAction {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getLabelMessage() {
 		return wfMessage( 'bs-contextmenu-media-reupload' );
