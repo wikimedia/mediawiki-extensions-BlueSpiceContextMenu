@@ -6,9 +6,9 @@ use MediaWiki\Context\IContextSource;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\User;
 use SpecialEmailUser;
-use SpecialPage;
 
 class MailUser extends BaseUserAction {
 

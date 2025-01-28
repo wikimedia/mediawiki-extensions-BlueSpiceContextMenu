@@ -3,7 +3,7 @@
 namespace BlueSpice\ContextMenu\MenuItem;
 
 use MediaWiki\Message\Message;
-use SpecialPage;
+use MediaWiki\SpecialPage\SpecialPage;
 
 class Move extends Base {
 
