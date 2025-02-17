@@ -22,5 +22,6 @@
 	"bs-contextmenu-user-talk": "Leave message on talk page",
 	"bs-contextmenu-file-download": "Download file",
 	"apihelp-bs-contextmenu-tasks-summary": "Provides the context menu items in context",
-	"bs-contextmenu-open-in-new-tab": "Open in new tab"
+	"bs-contextmenu-open-in-new-tab": "Open in new tab",
+	"bs-contextmenu-no-items": "No context items available"
 }
