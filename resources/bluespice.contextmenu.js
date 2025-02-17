@@ -6,6 +6,9 @@ bs.contextMenu.openMenuOn = function( $el, title ) {
 	if ( !title ) {
 		title = $el.data( 'bs-title' );
 	}
+	if ( !title ) {
+		return false;
+	}
 	const cached = bs.contextMenu._storage.popups[title] || null;
 	let popup;
 	if ( !cached ) {
@@ -19,8 +22,12 @@ bs.contextMenu.openMenuOn = function( $el, title ) {
 	} else {
 		popup = cached;
 	}
+	if ( !popup.hasItems ) {
+		return false;
+	}
 	popup.setFloatableContainer( $el );
 	popup.toggle( true );
+	return true;
 };
 $( function() {
 	$( document ).on( 'contextmenu', 'a', function( e ) {
@@ -32,7 +39,6 @@ $( function() {
 		if ( $anchor.hasClass('external') ) {
 			return true;
 		}
-		bs.contextMenu.openMenuOn( $anchor );
-		return false;
-	});
+		return !bs.contextMenu.openMenuOn( $anchor );
+	} );
 } );

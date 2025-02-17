@@ -14,3 +14,15 @@
 .bs-context-menu-item a span.oo-ui-labelElement-label {
     white-space: break-spaces;
 }
+
+.bs-context-menu-no-items {
+    padding: 10px;
+}
+
+.bs-context-menu[aria-busy="true"] .oo-ui-popupWidget-body {
+    background-image: url( './loader.svg' );
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30px;
+}

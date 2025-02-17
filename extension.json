@@ -72,7 +72,8 @@
 				"contextMenu.css"
 			],
 			"messages": [
-				"bs-contextmenu-open-in-new-tab"
+				"bs-contextmenu-open-in-new-tab",
+				"bs-contextmenu-no-items"
 			],
 			"dependencies": [
 				"user.options",
