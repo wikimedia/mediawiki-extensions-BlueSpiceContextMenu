@@ -9,22 +9,14 @@ bs.contextMenu.ContextMenu = function( cfg ) {
 	cfg.width = 200;
 	bs.contextMenu.ContextMenu.parent.call( this, cfg );
 	this.initialized = false;
-	this.inErrorState = false;
+	this.hasItems = true;
 
 	this.forTitle = cfg.forTitle || '';
 	this.$element.addClass( 'bs-context-menu' );
+	this.$element.attr( 'aria-busy', 'true' );
 };
 
 OO.inheritClass( bs.contextMenu.ContextMenu, OO.ui.PopupWidget );
-
-bs.contextMenu.ContextMenu.prototype.toggle = function( show ) {
-	if ( show ) {
-		if ( this.inErrorState ) {
-			return;
-		}
-	}
-	bs.contextMenu.ContextMenu.parent.prototype.toggle.call( this, show );
-};
 
 bs.contextMenu.ContextMenu.prototype.initialize = function() {
 	if ( this.initialized ) {
@@ -100,12 +92,22 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 					}
 					this.$body.append( btn.$element );
 				}
+				this.$element.attr( 'aria-busy', 'false' );
 			}.bind( this ),
 			failure: function( e ) {
-				this.toggle( false );
-				this.inErrorState = true;
+				this.showNoItems();
+				this.hasItems = false;
+				this.$element.attr( 'aria-busy', 'false' );
 			}.bind( this )
 		}
 	);
+};
 
+bs.contextMenu.ContextMenu.prototype.showNoItems = function() {
+	this.$body.append(
+		new OO.ui.LabelWidget( {
+			classes: [ 'bs-context-menu-no-items' ],
+			label: mw.message( 'bs-contextmenu-no-items' ).plain()
+		} ).$element
+	);
 };
