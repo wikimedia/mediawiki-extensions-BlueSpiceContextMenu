@@ -23,5 +23,6 @@
 	"bs-contextmenu-file-download": "Discargar file",
 	"apihelp-bs-contextmenu-tasks-description": "Forni le elementos del menu contextual in contexto",
 	"apihelp-bs-contextmenu-tasks-summary": "Forni le elementos del menu contextual in contexto",
-	"bs-contextmenu-open-in-new-tab": "Aperir in un nove scheda"
+	"bs-contextmenu-open-in-new-tab": "Aperir in un nove scheda",
+	"bs-contextmenu-no-items": "Necun elemento de contexto disponibile"
 }
