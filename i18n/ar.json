@@ -25,5 +25,6 @@
 	"bs-contextmenu-file-download": "تنزيل الملف",
 	"apihelp-bs-contextmenu-tasks-description": "يوفر عناصر قائمة السياق في السياق",
 	"apihelp-bs-contextmenu-tasks-summary": "يوفر عناصر قائمة السياق في السياق",
-	"bs-contextmenu-open-in-new-tab": "افتح في علامة تبويب جديدة"
+	"bs-contextmenu-open-in-new-tab": "افتح في علامة تبويب جديدة",
+	"bs-contextmenu-no-items": "لا توجد عناصر سياقية متاحة"
 }
