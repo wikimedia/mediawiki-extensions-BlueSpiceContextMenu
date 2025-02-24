@@ -24,5 +24,6 @@
 	"bs-contextmenu-file-download": "הורדת הקובץ",
 	"apihelp-bs-contextmenu-tasks-description": "אספקת הפריטים שבתפריט ההקשר",
 	"apihelp-bs-contextmenu-tasks-summary": "אספקת הפריטים שבתפריט ההקשר",
-	"bs-contextmenu-open-in-new-tab": "פתיחה בלשונית חדשה"
+	"bs-contextmenu-open-in-new-tab": "פתיחה בלשונית חדשה",
+	"bs-contextmenu-no-items": "אין פריטי הקשר זמינים"
 }
