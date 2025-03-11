@@ -26,5 +26,6 @@
 	"bs-contextmenu-user-talk": "Bericht achterlaten op overlegpagina",
 	"bs-contextmenu-file-download": "Bestand downloaden",
 	"apihelp-bs-contextmenu-tasks-summary": "Stelt de contextmenu-items in context beschikbaar",
-	"bs-contextmenu-open-in-new-tab": "In nieuw tabblad openen"
+	"bs-contextmenu-open-in-new-tab": "In nieuw tabblad openen",
+	"bs-contextmenu-no-items": "Geen contextitems beschikbaar"
 }
