@@ -4,7 +4,8 @@
 			"Gomoko",
 			"Urhixidur",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"JLTRY"
 		]
 	},
 	"bs-contextmenu-desc": "Fournit des menus contextuels pour divers liens",
@@ -26,5 +27,6 @@
 	"bs-contextmenu-file-download": "Télécharger un fichier",
 	"apihelp-bs-contextmenu-tasks-description": "Fournit les éléments du menu contextuel dans le contexte",
 	"apihelp-bs-contextmenu-tasks-summary": "Fournit les éléments de menu de contexte présents dans le contexte",
-	"bs-contextmenu-open-in-new-tab": "Ouvrir dans un nouvel onglet"
+	"bs-contextmenu-open-in-new-tab": "Ouvrir dans un nouvel onglet",
+	"bs-contextmenu-no-items": "Aucun élément de contexte disponible"
 }
