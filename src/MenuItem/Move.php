@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
 use MediaWiki\SpecialPage\SpecialPage;
 
@@ -40,12 +41,10 @@ class Move extends Base {
 	}
 
 	/**
-	 *
-	 * @param \Context $context
-	 * @return type
+	 * @inheritDoc
 	 */
 	public function shouldList( $context ) {
-		return \MediaWiki\MediaWikiServices::getInstance()
+		return MediaWikiServices::getInstance()
 			->getPermissionManager()
 			->userCan( 'move', $context->getUser(), $this->title ) && $this->title->isMovable();
 	}
