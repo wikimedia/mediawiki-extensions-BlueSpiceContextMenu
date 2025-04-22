@@ -55,6 +55,9 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\ContextMenu\\": "src/"
 	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\ContextMenu\\Tests\\": "tests/phpunit/"
+	},
 	"Hooks": {
 		"GetPreferences": "\\BlueSpice\\ContextMenu\\Hook\\GetPreferences\\AddModus::callback",
 		"BeforePageDisplay": "\\BlueSpice\\ContextMenu\\Hook\\BeforePageDisplay\\AddModules::callback"
