@@ -10,6 +10,8 @@ use MediaWiki\Title\Title;
 use stdClass;
 
 class ContextMenuTasks extends \BSApiTasksBase {
+
+	/** @var array */
 	protected $aTasks = [
 		'getMenuItems' => [
 			'examples' => [
@@ -42,7 +44,7 @@ class ContextMenuTasks extends \BSApiTasksBase {
 	 * @return ApiResult
 	 * @throws Exception
 	 */
-	protected function task_getMenuItems( $oData, $aParams ) {
+	protected function task_getMenuItems( $oData, $aParams ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		$oResult = $this->getResult();
 
 		if ( !isset( $oData->title ) || empty( $oData->title ) ) {

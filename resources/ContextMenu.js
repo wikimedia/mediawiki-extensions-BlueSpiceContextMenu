@@ -1,5 +1,5 @@
 bs.util.registerNamespace( 'bs.contextMenu' );
-bs.contextMenu.ContextMenu = function( cfg ) {
+bs.contextMenu.ContextMenu = function ( cfg ) {
 	cfg.$overlay = true;
 	cfg.padded = false;
 	cfg.autoClose = true;
@@ -18,7 +18,7 @@ bs.contextMenu.ContextMenu = function( cfg ) {
 
 OO.inheritClass( bs.contextMenu.ContextMenu, OO.ui.PopupWidget );
 
-bs.contextMenu.ContextMenu.prototype.initialize = function() {
+bs.contextMenu.ContextMenu.prototype.initialize = function () {
 	if ( this.initialized ) {
 		return;
 	}
@@ -31,14 +31,14 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 			title: this.forTitle
 		},
 		{
-			success: function( response ) {
+			success: function ( response ) {
 				if ( response.payload_count === 0 ) {
 					return;
 				}
 				items = response.payload.items;
 				items.push( {
 					label: mw.message( 'bs-contextmenu-open-in-new-tab' ).plain(),
-					callback: function() {
+					callback: function () {
 						const title = mw.Title.newFromText( this.forTitle );
 						if ( title ) {
 							// Open url in new tab
@@ -52,7 +52,7 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 				$( document ).trigger( 'BSContextMenuGetItems', [ this.$floatableContainer, items, this.forTitle ] );
 
 				// Sort items by "primary" and then by position
-				items.sort( function( a, b ) {
+				items.sort( ( a, b ) => {
 					if ( a.primary && !b.primary ) {
 						return -1;
 					}
@@ -63,10 +63,10 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 				} );
 				// Check "overrides". If item overrides another item, remove the other item
 				for ( let i = 0; i < items.length; i++ ) {
-					const item = items[i];
+					const item = items[ i ];
 					if ( item.overrides ) {
 						for ( let j = 0; j < items.length; j++ ) {
-							if ( items[j].id === item.overrides ) {
+							if ( items[ j ].id === item.overrides ) {
 								items.splice( j, 1 );
 								break;
 							}
@@ -74,7 +74,7 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 					}
 				}
 				for ( let i = 0; i < items.length; i++ ) {
-					const item = items[i];
+					const item = items[ i ];
 					if ( item instanceof OO.ui.Widget ) {
 						this.$body.append( item.$element );
 						continue;
@@ -94,7 +94,7 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 				}
 				this.$element.attr( 'aria-busy', 'false' );
 			}.bind( this ),
-			failure: function( e ) {
+			failure: function () {
 				this.showNoItems();
 				this.hasItems = false;
 				this.$element.attr( 'aria-busy', 'false' );
@@ -103,7 +103,7 @@ bs.contextMenu.ContextMenu.prototype.initialize = function() {
 	);
 };
 
-bs.contextMenu.ContextMenu.prototype.showNoItems = function() {
+bs.contextMenu.ContextMenu.prototype.showNoItems = function () {
 	this.$body.append(
 		new OO.ui.LabelWidget( {
 			classes: [ 'bs-context-menu-no-items' ],
