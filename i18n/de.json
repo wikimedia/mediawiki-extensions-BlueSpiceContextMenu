@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Hwboehm",
+			"Justman10000",
 			"Metalhead64",
 			"Robert Vogel <vogel@hallowelt.biz>",
 			"Tobias Weichart<weichart@hallowelt.biz>"
@@ -25,5 +26,7 @@
 	"bs-contextmenu-user-talk": "Eine Nachricht auf der Benutzerdiskussionsseite hinterlassen",
 	"bs-contextmenu-file-download": "Datei herunterladen",
 	"apihelp-bs-contextmenu-tasks-description": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung",
-	"apihelp-bs-contextmenu-tasks-summary": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung"
+	"apihelp-bs-contextmenu-tasks-summary": "Stellt die Kontextmenüeinträge im Kontext zur Verfügung",
+	"bs-contextmenu-open-in-new-tab": "In neuem Tab öffnen",
+	"bs-contextmenu-no-items": "Keine Inhaltsobjekte verfügbar"
 }
