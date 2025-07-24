@@ -2,7 +2,6 @@
 
 use BlueSpice\Tests\BSApiTasksTestBase;
 use MediaWiki\MainConfigNames;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 
 /**
@@ -20,7 +19,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 
 		$this->overrideConfigValue( MainConfigNames::EmailAuthentication, false );
 
-		$file = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()->newFile(
+		$file = $this->getServiceContainer()->getRepoGroup()->getLocalRepo()->newFile(
 			Title::makeTitle( NS_FILE, 'File.txt' )
 		);
 
@@ -28,7 +27,7 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 		$filepath = __DIR__ . '/data/file.txt';
 
 		$archive = $file->publish( $filepath );
-		$mwProps = new MWFileProps( MediaWikiServices::getInstance()->getMimeAnalyzer() );
+		$mwProps = new MWFileProps( $this->getServiceContainer()->getMimeAnalyzer() );
 		$props = $mwProps->getPropsFromPath( $filepath, true );
 		$file->recordUpload3( $archive->value, 'Test', 'Test', $user, $props );
 	}
