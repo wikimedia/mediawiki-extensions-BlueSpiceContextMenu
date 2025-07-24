@@ -11,13 +11,16 @@ use MediaWiki\Title\Title;
  * @group BlueSpice
  * @group BlueSpiceExtensions
  * @group BlueSpiceContextMenu
+ * @covers \BlueSpice\ContextMenu\Api\ContextMenuTasks
  */
 class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 
 	protected function setUp(): void {
 		parent::setUp();
 
-		$this->overrideConfigValue( MainConfigNames::EmailAuthentication, false );
+		// Disable email functionality to prevent 'Send mail' from appearing
+		$this->overrideConfigValue( MainConfigNames::EnableEmail, false );
+		$this->overrideConfigValue( MainConfigNames::EnableUserEmail, false );
 
 		$file = $this->getServiceContainer()->getRepoGroup()->getLocalRepo()->newFile(
 			Title::makeTitle( NS_FILE, 'File.txt' )
@@ -30,6 +33,8 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 		$mwProps = new MWFileProps( $this->getServiceContainer()->getMimeAnalyzer() );
 		$props = $mwProps->getPropsFromPath( $filepath, true );
 		$file->recordUpload3( $archive->value, 'Test', 'Test', $user, $props );
+
+		$this->insertPage( 'ContextMenuPage' );
 	}
 
 	protected function getModuleName() {
@@ -37,10 +42,9 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 	}
 
 	/**
-	 * @covers \BSApiContextMenuTasks::task_getMenuItems
 	 * @dataProvider provideGetMenuItemData
 	 */
-	public function testGetMenuItems( $title, $expectedResultFlag, $expectedNoOfEintries ) {
+	public function testGetMenuItems( $title, $expectedResultFlag, $expectedNoOfEntries ) {
 		$response = $this->executeTask( 'getMenuItems', [
 			'title' => $title
 		] );
@@ -54,17 +58,17 @@ class BSApiContextMenuTasksTest extends BSApiTasksTestBase {
 			$items = $response['payload']['items'];
 		}
 
-		$this->assertCount( $expectedNoOfEintries, $items,
+		$this->assertCount( $expectedNoOfEntries, $items,
 			'The number of returned items did not match expectations' );
 	}
 
 	public function provideGetMenuItemData() {
 		return [
 			'no title set ' => [ '', false, 0 ],
-			'normal wiki page' => [ 'UTPage', true, 9 ],
+			'normal wiki page' => [ 'ContextMenuPage', true, 9 ],
 			'normal non existing wiki page' => [ 'Page does not exist', true, 4 ],
-			'non existing user page' => [ 'User:UTSysop', true, 5 ],
-			'file page' => [ 'File:File.txt', true, 12 ],
+			'non existing user page' => [ 'User:NotExist', true, 5 ],
+			'file page' => [ 'File:File.txt', true, 12 ]
 		];
 	}
 }
