@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
-			"Piramidion"
+			"Piramidion",
+			"Repakr"
 		]
 	},
 	"bs-contextmenu-desc": "Надає контекстне меню для різних посилань",
@@ -23,5 +24,6 @@
 	"bs-contextmenu-user-talk": "Залишити повідомлення на сторінках обговорення",
 	"bs-contextmenu-file-download": "Завантажити файл",
 	"apihelp-bs-contextmenu-tasks-description": "Забезпечує елементи контекстного меню в контексті",
-	"apihelp-bs-contextmenu-tasks-summary": "Забезпечує елементи контекстного меню в контексті"
+	"apihelp-bs-contextmenu-tasks-summary": "Забезпечує елементи контекстного меню в контексті",
+	"bs-contextmenu-open-in-new-tab": "Відкрити у новій вкладці"
 }
