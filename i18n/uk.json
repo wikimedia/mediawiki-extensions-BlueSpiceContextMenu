@@ -3,7 +3,8 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Piramidion",
-			"Repakr"
+			"Repakr",
+			"Vlad5250"
 		]
 	},
 	"bs-contextmenu-desc": "Надає контекстне меню для різних посилань",
@@ -25,5 +26,6 @@
 	"bs-contextmenu-file-download": "Завантажити файл",
 	"apihelp-bs-contextmenu-tasks-description": "Забезпечує елементи контекстного меню в контексті",
 	"apihelp-bs-contextmenu-tasks-summary": "Забезпечує елементи контекстного меню в контексті",
-	"bs-contextmenu-open-in-new-tab": "Відкрити у новій вкладці"
+	"bs-contextmenu-open-in-new-tab": "Відкрити у новій вкладці",
+	"bs-contextmenu-no-items": "Немає доступних елементів контекстного меню"
 }
