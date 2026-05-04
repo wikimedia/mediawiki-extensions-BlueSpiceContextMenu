@@ -3,6 +3,7 @@
 		"authors": [
 			"Hwangjy9",
 			"Revi",
+			"Tensama0415",
 			"Yearning",
 			"Ykhwong"
 		]
@@ -21,5 +22,6 @@
 	"bs-contextmenu-user-mail": "메일 보내기",
 	"bs-contextmenu-user-talk": "토론 문서에 메시지 남기기",
 	"bs-contextmenu-file-download": "파일 내려받기",
-	"bs-contextmenu-open-in-new-tab": "새 탭에서 열기"
+	"bs-contextmenu-open-in-new-tab": "새 탭에서 열기",
+	"bs-contextmenu-no-items": "이용 가능한 콘텐츠 항목이 없음"
 }
