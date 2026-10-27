@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ContextMenu\MenuItem;
 
+use MediaWiki\FileRepo\File\File;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 
@@ -13,7 +14,7 @@ abstract class BaseFileAction extends Base {
 	protected $title = null;
 
 	/**
-	 * @var \File
+	 * @var File
 	 */
 	protected $file = null;
 
